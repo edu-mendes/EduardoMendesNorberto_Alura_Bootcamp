@@ -19,7 +19,7 @@ export default function CardText() {
   return (
     <div>
       <TypografiaCardText>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie rhoncus vestibulum. Aenean blandit velit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie rhoncus vestibulum.
       </TypografiaCardText>
     </div>
   );

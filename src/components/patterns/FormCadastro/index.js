@@ -48,7 +48,7 @@ function FormContent() {
           mensagem: userInfo.mensagem,
         };
 
-        fetch('https://instalura-api.vercel.app/api/users', {
+        fetch('https://contact-form-api-jamstack.herokuapp.com/message', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

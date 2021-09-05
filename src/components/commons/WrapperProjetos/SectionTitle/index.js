@@ -7,7 +7,7 @@ const TypografiaSectionTitle = styled.h2`
   font-family: 'Fira Sans Condensed', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 72px;
   /* identical to box height */
 

@@ -29,7 +29,7 @@ export const CabecalhoWrapper = styled.div`
   })} */
 
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   border-radius: 4px; 
   padding-right: 28px;
@@ -45,8 +45,6 @@ CabecalhoWrapper.LeftSide = styled.div`
   order: 1;
   width: 50px;
   height: 100%;
-  background: #E9C46A;
-  color: #fff;
   text-align: center;
   ${breakpointsMedia({
     md: css`

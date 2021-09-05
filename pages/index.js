@@ -18,8 +18,8 @@ export default function Home() {
       flexDirection="column"
       justifyContent="space-between"
     >
-      <Capa />
       <Cabecalho />
+      <Capa />
       <WrapperProjetos />
       <Modal
         isOpen={isModalOpen}

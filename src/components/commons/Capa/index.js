@@ -1,22 +1,17 @@
 import React from 'react';
 import Box from '../../foundation/layout/Box';
 import Text from '../../foundation/Text';
+import { CapaWrapper } from './styles/CapaWrapper';
 
 export default function Capa() {
   return (
     <>
       <Box
-        backgroundImage="url(/images/background.jpg)"
+        backgroundImage="url(/images/background-watermark.png)"
         backgroundRepeat="no-repeat"
-        backgroundPosition="bottom right"
-        // display="flex"
-        // flexDirection="column"
-        // alignContent="center"
-        // justifyContent="center"
+        backgroundPosition="center left"
       >
-        <Box
-          backgroundColor="#FFF8E6"
-        >
+        <CapaWrapper>
           <Text
             variant="title"
             tag="h1"
@@ -34,11 +29,11 @@ export default function Capa() {
               md: '16px',
             }}
           >
-            Eduardo Mendes
+            Oi, eu sou Eduardo
           </Text>
           <Text
             variant="paragraph1"
-            tag="p"
+            tag="span"
             color="tertiary.light"
             textAlign={{
               xs: 'center',
@@ -55,7 +50,11 @@ export default function Capa() {
           >
             Portifolio
           </Text>
-        </Box>
+          <span aria-label="Emoji">
+            👋
+          </span>
+        </CapaWrapper>
+        <Box />
 
       </Box>
     </>
